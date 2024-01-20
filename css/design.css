@@ -34,6 +34,8 @@ body {
   
   p{
     order:1;
+    margin-bottom: auto;
+    padding-bottom: 1rem; /* Sets the alignment of emoji button at the bottom of the card*/
   }
   
   .emoji a {
@@ -43,7 +45,6 @@ body {
     padding: 1rem;
     border-radius: 8px;
     order:2;
-    margin-top: auto; /* Sets the alignment of emoji button at the bottom of the card*/
   }
   
   
