@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
     max-width:900px;
+    margin:0 auto;
   }
   
   
@@ -17,12 +18,21 @@ body {
     display: grid;
     gap:2%;
     grid-template-columns: repeat(2,400px);
-    grid-template-rows: repeat(2,350px);
+    grid-template-rows: repeat(2,auto);
+  }
+
+  .icon {
+    font-size: 4rem;
+    align-self: center;/* Aligning the emoji icon at the center of the card*/
   }
 
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
+    order:1;
+  }
+  
+  p{
     order:1;
   }
   
@@ -33,13 +43,8 @@ body {
     padding: 1rem;
     border-radius: 8px;
     order:2;
-  }
-
-  p{
-    order:1;
+    margin-top: auto; /* Sets the alignment of emoji button at the bottom of the card*/
   }
   
-  .icon {
-    font-size: 4rem;
-    align-self: center;/* Aligning the icon at the center of the card*/
-  }
+  
+  
