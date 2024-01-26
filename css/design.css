@@ -1,6 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
+
+    /* Added properties */
     max-width:900px;
     margin:0 auto;
   }
@@ -10,10 +12,13 @@ body {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
+
+    /* Added properties */
     display:flex; /* Setting the card component to flexible container */
     flex-direction: column; /* Setting the card component to column direction */
   }
   
+  /* Added class */
   .emojis{
     display: grid;
     gap:2%;
@@ -23,15 +28,20 @@ body {
 
   .icon {
     font-size: 4rem;
+
+    /* Added property */
     align-self: center;/* Aligning the emoji icon at the center of the card*/
   }
 
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
+
+    /* Assigning order for the heading */
     order:1;
   }
   
+  /* Added class */
   p{
     order:1;
     margin-bottom: auto;
@@ -44,6 +54,8 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+
+    /* Added property */
     order:2;
   }
   
