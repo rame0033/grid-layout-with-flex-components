@@ -17,13 +17,12 @@ body {
     display:flex; /* Setting the card component to flexible container */
     flex-direction: column; /* Setting the card component to column direction */
     justify-content: space-between; /* Align items to the end of the container */
-    height: 100%;
   }
   
   /* Added class */
   .emojis{
     display: grid;
-    grid-gap: 3rem;
+    grid-gap: 1rem;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
   }
@@ -46,6 +45,7 @@ body {
   /* Added class */
   p{
     order:1;
+    flex-grow: 1;
   }
   
   .emoji a {
